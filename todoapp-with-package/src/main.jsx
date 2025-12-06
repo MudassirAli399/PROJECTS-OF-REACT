@@ -6,7 +6,7 @@ import { Provider } from 'react-redux'
 
 
 import App from './App.jsx'
-import { Store } from './store/store.js'
+import { Store } from './store/Store.js'
 
 createRoot(document.getElementById('root')).render(
   <Provider store={Store}>
