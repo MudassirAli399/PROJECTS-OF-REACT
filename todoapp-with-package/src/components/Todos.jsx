@@ -8,7 +8,9 @@ const Todos = () => {
 
     useEffect(() => {
         console.log(task);
-        ;
+         if(task.length<=2){
+            dispatch(buttonupdate("Add"))
+          }
     }, [task]);
 
     const todos = task.filter((item, index) => index > 1)
