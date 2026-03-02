@@ -31,7 +31,7 @@ https://currency-converter-of-react-project.vercel.app/
 ---
 
 ## 👨‍💻 Author
-Your Name
+Mudassir Ali
 
 ---
 
